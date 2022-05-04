@@ -9,7 +9,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		String cadena = "";
 		
-		System.out.println("Introduce la cadena deseada: ");
+		System.out.println("Introduce la cadena deseada y tirame del dedo: ");
 		cadena = sc.nextLine();
 		
 		System.out.println(Main.isNumeric(cadena));
