@@ -9,14 +9,14 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		String cadena = "";
 		
-		System.out.println("Introduzca la cadena deseada: ");
+		System.out.println("Introduce la cadena deseada: ");
 		cadena = sc.nextLine();
 		
 		System.out.println(Main.isNumeric(cadena));
 		
 	}
 	
-	//Método que recibe un String y diga verdadero o falso si ese String es un numero
+	//MÃ©todo que recibe un String y diga verdadero o falso si ese String es un numero
 	public static boolean isNumeric(String cadena) {
 		boolean esNumero = false;
 		try {
